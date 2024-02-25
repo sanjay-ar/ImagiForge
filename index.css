@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Jost", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2b2c34;
+  background-color: #fffffe;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 50px 0 0 0;
+  gap: 80px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 30px 0;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 3.3em;
+  margin: 30px 0 10px 0;
+  text-align: center;
+}
+
+.alpaca {
+  width: 455px;
+  margin: 0;
+  position: relative;
+  aspect-ratio: 1;
+}
+
+.alpaca img {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+}
+
+.alpaca-accessories {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.alpaca-backgrounds {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.alpaca-ears {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.alpaca-eyes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.alpaca-hair {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.alpaca-leg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.alpaca-mouth {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.alpaca-neck {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.alpaca-nose {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.feature-control {
+  margin-left: 0px;
+}
+
+.feature-btn-header {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+
+.style-control {
+  margin-left: 0px;
+  margin-top: 50px;
+}
+
+.style-btn-header {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+
+.feature-btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 590px;
+}
+
+.style-btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 580px;
+}
+
+.feature-btn {
+  border: none;
+  padding: 12px 30px;
+  background-color: #fffffe;
+  color: #2b2c34;
+  margin: 5px 5px;
+  border-radius: 100px;
+  border: 0.15em solid #2b2c34;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.style-btn {
+  border: none;
+  padding: 12px 30px;
+  background-color: #fffffe;
+  color: #2b2c34;
+  margin: 5px 5px;
+  border-radius: 100px;
+  border: 0.15em solid #2b2c34;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.feature-btn:hover,
+.feature-btn_selected {
+  cursor: pointer;
+  color: #000000;
+  background-color: #6246ea;
+  color: #fffffe;
+  border: 0.15em solid #6246ea;
+}
+
+.style-btn:hover,
+.style-btn_selected {
+  cursor: pointer;
+  color: #000000;
+  background-color: #6246ea;
+  color: #fffffe;
+  border: 0.15em solid #6246ea;
+}
+
+.controls-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.randomize-btn {
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border: 0.15em solid #2b2c34;
+  border-radius: 3px;
+  color: #fffffe;
+  background: #2b2c34;
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0.8em 2.8em;
+  text-align: center;
+  transition-duration: 0.15s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.randomize-btn:hover {
+  color: #fffffe;
+  border: 0.15em solid #e45858;
+  background: #e45858;
+}
+
+.download-btn {
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border: 0.15em solid #2b2c34;
+  border-radius: 3px;
+  color: #fffffe;
+  background: #2b2c34;
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0.8em 2.8em;
+  text-align: center;
+  transition-duration: 0.15s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.download-btn:hover {
+  color: #fffffe;
+  border: 0.15em solid #e45858;
+  background: #e45858;
+}
+
+@media only screen and (max-width: 600px) {
+  .alpaca {
+    width: 425px;
+  }
+
+  .alpaca img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .header {
+    font-size: 2.6em;
+  }
+
+  .randomize-btn,
+  .download-btn {
+    padding: 0.75em 2.5em;
+  }
+
+  .feature-btn-wrapper,
+  .style-btn-wrapper {
+    width: 430px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .alpaca {
+    width: 300px;
+  }
+
+  .alpaca img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .header {
+    font-size: 1.9em;
+  }
+
+  .randomize-btn,
+  .download-btn {
+    padding: 0.5em 1em;
+  }
+
+  .feature-btn-wrapper,
+  .style-btn-wrapper {
+    width: 300px;
+  }
+}
