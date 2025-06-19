@@ -18,6 +18,14 @@ Like most projects, I ran into a few bumps along the way. One particular one was
 
 The biggest obsatcle I encountered during this project was maintaining the state for all the components throughout the entire React app. This was my first interactive React project that allowed interaction from the user, so I had a tough but rewarding time implementing the state using the useState hook and props to modify the setup file and render the components accordingly.
 
-## Leassons Learned
+---
 
-I could spend all day describing the lessons I learnt while working on this project, but the most important ones involved my newfound understanding of the useState hook and using external libraries. I also learnt a lot about code structure and modifying Javascript objects in React.
+---
+
+### 🚀 Maintained by [Sanjay A R](https://github.com/sanjay-ar)
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blue?style=flat-square&logo=vercel)](https://portfolio-ar.vercel.app/)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sanjay%20A%20R-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/sanjay-ar/)  
+[![GitHub](https://img.shields.io/badge/GitHub-sanjay--ar-black?style=flat-square&logo=github)](https://github.com/sanjay-ar)
+
+> 💡 *Like this project? Leave a ⭐ and connect with me!*
